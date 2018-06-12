@@ -14,3 +14,15 @@ print(stuff['age'])
 print(stuff['height'])
 stuff['city'] = 'SF'
 print(stuff['city'])
+# We can insert numbers, too
+stuff[1] = "Wow"
+stuff[2] = "Neato"
+print(stuff[1])
+print(stuff[2])
+print(stuff)
+
+# Delete items
+del stuff['city']
+del stuff[1]
+del stuff[2]
+print(stuff)
